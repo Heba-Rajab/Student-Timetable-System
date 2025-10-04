@@ -12,3 +12,64 @@
 
 - **Universal Print Function:** A flexible print option is available for **any** generated timetable, allowing for easy creation of hard copies for distribution.
 
+## 💻 My Core Contributions
+
+As the **Lead Developer**, I voluntarily took on the responsibility for architecting and implementing the vast majority of the system's functionality. I saw this project as a crucial opportunity to push my limits and grow under pressure. It was a challenging and rewarding experience that allowed me to simulate a real-world work environment, which was my personal goal.
+
+My contributions can be broken down as follows:
+
+### 1. UI/UX Design & Implementation
+- **From Concept to Code:** I initiated the design process by sketching wireframes on paper and led team discussions on color theory, resulting in the selection of a clean and professional navy-and-white theme.
+- **Tkinter Development:** I single-handedly translated these designs into a fully functional and responsive user interface using Tkinter. This was my first time undertaking a project of this scale, and I overcame numerous challenges by leveraging critical thinking and extensive research, significantly enhancing my problem-solving skills.
+
+### 2. Complex Problem-Solving & Algorithm Development
+Driven by the core challenges outlined by our project supervisor, I took the lead in developing solutions for the most complex scheduling issues:
+- **Cross-Department Conflict Resolution:** I engineered the core logic to resolve a critical issue where a single professor teaching the same course to two different departments could cause a scheduling conflict.
+- **Unified Faculty Schedule Generation:** I devised a practical solution to display a professor's complete timetable, even when they teach across different faculties. This was achieved by architecting the system to handle data from multiple faculties seamlessly.
+- **Handling Practical Sessions (Labs):** I researched and attempted a solution for scheduling practical sessions for two different groups at the same time, exploring JSON-based approaches. *(This feature is currently in the experimental phase).*
+
+### 3. Development of Key Application Pages
+I was the **sole developer** for three of the five primary pages, handling both the front-end design and the back-end logic from scratch:
+- **Groups & Courses Setup Page:** I built the interface for administrators to define "groups" (a combination of department, level, course,labs and professor), which forms the foundational data for all scheduling.
+- **Timetable Entry Page:** This was the most challenging page. I developed the complex grid interface for timetable entry and implemented the logic to prevent data conflicts in cells, time slots, and locations.
+- **Timetable Viewing Page:** I designed and programmed a dynamic dashboard with four main frames: a general view for any selected timetable, a dedicated view for a professor's schedule, a view for a specific location's schedule, and a universal print button that generates a PDF of the currently displayed table.
+
+### 4. Database Integration
+- I utilized the **pyodbc** library to establish the connection between the Python application and the SQL Server database. I was responsible for writing and managing all the SQL queries executed from the application (SELECT, INSERT, UPDATE, etc.), ensuring seamless and reliable data flow.
+
+---
+*(Full details of my entire process, including the conflict resolution algorithms, are available in the provided documentation file.)*
+
+## 👥 Team & Roles
+
+This project was a collaborative effort, with roles and responsibilities distributed as follows:
+
+- **Heba Ragab**: **Lead Developer & UI/UX Designer**
+  - *Led the end-to-end development, from conceptual design and UI implementation to core logic and complex problem-solving.*
+
+- **Lobna Hesham**: **Database Architect**
+  - *Designed and implemented the database schema using MS SQL Server Management Studio based on the project's data requirements.*
+
+-- **Nermeen Saad**: **UI Developer & Deployment Specialist**
+  - *Developed the front-end and back-end for the "Data Management" and "Settings" pages, allowing administrators to manage core data and configure the server connection.*
+  - *Additionally, she was responsible for the final deployment, converting the Python source code into a standalone desktop application (executable).*
+
+
+## 🛠️ Technologies Used
+
+- **Language:** Python
+- **GUI:** Tkinter
+- **Database:** SQL Server
+- **Connectivity:** pyodbc
+
+## 🚀 How to Run the Project
+
+1.  **Restore the Database:**
+    - Ensure you have Microsoft SQL Server and SSMS installed.
+    - In SSMS, right-click on the "Databases" folder and choose "Restore Database...".
+    - Select "Device" as the source, and then locate and select the `.bak` file from this repository.
+    - Click "OK" to restore the database.
+2.  **Configure the Connection:**
+    - Open the Python file containing the database connection string and update it with your server name and credentials.
+3.  **Run the Application:**
+    - Run the `main.py` file: `python main.py`
