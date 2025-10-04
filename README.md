@@ -11,7 +11,17 @@
 - **Conflict Resolution:** Built-in logic to help identify and prevent scheduling conflicts.
 
 - **Universal Print Function:** A flexible print option is available for **any** generated timetable, allowing for easy creation of hard copies for distribution.
+## 📸 Screenshots
 
+![Main Dashboard](https://github.com/Heba-Rajab/Student-Timetable-System/blob/main/1.png)
+
+![Creating Groups](https://github.com/Heba-Rajab/Student-Timetable-System/blob/main/2.png)
+
+![Entering Timetables](https://github.com/Heba-Rajab/Student-Timetable-System/blob/main/3.png)
+
+![Timetable View](https://github.com/Heba-Rajab/Student-Timetable-System/blob/main/4.png)
+
+![Entering Data](https://github.com/Heba-Rajab/Student-Timetable-System/blob/main/7.png)
 ## 💻 My Core Contributions
 
 As the **Lead Developer**,  I voluntarily took on the responsibility for the entire core of the project. My primary role was to **architect and develop the main body of the program from the ground up, and single-handedly solve all of the application's complex scheduling and conflicting problems.** I saw this project as a crucial opportunity to push my limits and grow under pressure. It was a challenging and rewarding experience that allowed me to simulate a real-world work environment, which was my personal goal.
