@@ -14,7 +14,7 @@
 
 ## 💻 My Core Contributions
 
-As the **Lead Developer**, I voluntarily took on the responsibility for architecting and implementing the vast majority of the system's functionality. I saw this project as a crucial opportunity to push my limits and grow under pressure. It was a challenging and rewarding experience that allowed me to simulate a real-world work environment, which was my personal goal.
+As the **Lead Developer**,  I voluntarily took on the responsibility for the entire core of the project. My primary role was to **architect and develop the main body of the program from the ground up, and single-handedly solve all of the application's complex scheduling and conflicting problems.** I saw this project as a crucial opportunity to push my limits and grow under pressure. It was a challenging and rewarding experience that allowed me to simulate a real-world work environment, which was my personal goal.
 
 My contributions can be broken down as follows:
 
@@ -42,18 +42,16 @@ I was the **sole developer** for three of the five primary pages, handling both 
 
 ## 👥 Team & Roles
 
-This project was a collaborative effort, with roles and responsibilities distributed as follows:
+This project was a collaborative effort. The roles were distributed as follows:
 
-- **Heba Ragab**: **Lead Developer & UI/UX Designer**
-  - *Led the end-to-end development, from conceptual design and UI implementation to core logic and complex problem-solving.*
+- **Heba Ragab**: **Lead Developer & System Architect**
+  - *Led the end-to-end development, from conceptual design to core logic and deployment oversight.*
 
 - **Lobna Hesham**: **Database Architect**
-  - *Designed and implemented the database schema using MS SQL Server Management Studio based on the project's data requirements.*
+  - *Designed and implemented the database schema using MS SQL Server.*
 
--- **Nermeen Saad**: **UI Developer & Deployment Specialist**
-  - *Developed the front-end and back-end for the "Data Management" and "Settings" pages, allowing administrators to manage core data and configure the server connection.*
-  - *Additionally, she was responsible for the final deployment, converting the Python source code into a standalone desktop application (executable).*
-
+- **Nermeen Saad**: **UI Developer & Deployment Specialist**
+  - *Developed the "Data Management" and "Settings" pages and handled the final application deployment.*
 
 ## 🛠️ Technologies Used
 
