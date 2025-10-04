@@ -22,6 +22,8 @@
 ![Timetable View](https://github.com/Heba-Rajab/Student-Timetable-System/blob/main/4.png)
 
 ![Entering Data](https://github.com/Heba-Rajab/Student-Timetable-System/blob/main/7.png)
+
+![Server Setting](https://github.com/Heba-Rajab/Student-Timetable-System/blob/main/11.png)
 ## 💻 My Core Contributions
 
 As the **Lead Developer**,  I voluntarily took on the responsibility for the entire core of the project. My primary role was to **architect and develop the main body of the program from the ground up, and single-handedly solve all of the application's complex scheduling and conflicting problems.** I saw this project as a crucial opportunity to push my limits and grow under pressure. It was a challenging and rewarding experience that allowed me to simulate a real-world work environment, which was my personal goal.
